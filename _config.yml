@@ -1,0 +1,61 @@
+title:            Zhimin
+description:      "Hi，我是 Zhimin，是一个产品工程师，会一点产品知识 / Java / Python，喜欢折腾各种新技术。"
+
+github: zhiminbai
+zhihu: zhiminbainju
+twitter: zhiminbainju
+v2ex: zhiminbainju
+
+url: https://zhiminbai.github.io
+menu:
+  - title: 'Categories'
+    url: '/categories.html'
+  - title: 'About'
+    url: '/about'
+  - title: 'Wiki'
+    url: 'https://zhiminbai.github.io/wiki/'
+  - title: 'Github'
+    url: 'https://github.com/zhiminbai'
+  - title: 'RSS'
+    url: '/feed.xml'
+
+timezone:    Asia/Shanghai
+locale:      zh_CN
+lang:      zh-cmn-Hans
+future:      true
+highlighter: rouge
+markdown:    kramdown
+sass:
+  sass_dir: _sass
+  style: compressed
+
+permalink:   /:year-:month-:day/:title.html
+assetUrl: //zhiminbai.github.io/images/
+defaultImage: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+
+
+
+google_analytics: UA-28185485-1
+baidu_verify: 
+google_verify: 
+
+paginate: 10
+post_ext: md
+page_ext: md
+post_layout: post
+page_layout: page
+titlecase: true
+
+showBuyCoffee: false
+payImage: 
+
+include: [".htaccess"]
+exclude: ["Gemfile", "Gemfile.lock", "README.md", "LICENSE", "package.json","node_modules"]
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+
+plugins:
+  - jekyll-paginate
+  - jekyll-pdf-embed

@@ -1,0 +1,21 @@
+{
+  "name": "zhiminbai",
+  "author": "zhiminbai<zhiminbainju@gmail.com>",
+  "homepage": "https://zhiminbai.github.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhiminbai/zhiminbai.github.io"
+  },
+  "bugs": {
+    "url": "https://github.com/zhiminbai/zhiminbai.github.io/issues"
+  },
+  "scripts": {
+    "dev": "bundle exec jekyll serve --watch",
+    "start": "npm run dev",
+    "build": "jekyll build",
+    "min": "uglifyjs ./js/index.js -o ./js/index.min.js  --comments all"
+  },
+  "devDependencies": {
+    "uglify-js": "^2.7.5"
+  }
+}
