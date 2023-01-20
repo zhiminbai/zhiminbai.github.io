@@ -19,6 +19,16 @@
   <meta property="og:site_name" content="{{ site.title }}">
   <link rel="stylesheet" href="https://gw.alipayobjects.com/os/k/font/lxgwwenkaiscreenr.css" async rel="preload" as="font">
 
+{% if site.google_analytics %}
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-P7ERMJF8G7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-P7ERMJF8G7');
+</script>
+{% endif %}
 
 {% if page.layout == "post" %}
 <meta name="twitter:creator" content="@hizhiminbai">
