@@ -6,7 +6,7 @@ zhihu: zhiminbainju
 twitter: zhiminbainju
 v2ex: zhiminbainju
 
-url: https://www.baoyisheng.win
+url: https://zhiminbai.github.io
 menu:
   - title: 'Categories'
     url: '/categories.html'
@@ -36,7 +36,7 @@ defaultImage: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAIC
 
 
 google_analytics: G-P7ERMJF8G7
-baidu_verify: 
+baidu_verify:
 google_verify: OWziSIXNRKS5JznZImIOIQ
 
 paginate: 10
@@ -47,7 +47,7 @@ page_layout: page
 titlecase: true
 
 showBuyCoffee: false
-payImage: 
+payImage:
 
 include: [".htaccess"]
 exclude: ["Gemfile", "Gemfile.lock", "README.md", "LICENSE", "package.json","node_modules"]
