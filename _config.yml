@@ -12,8 +12,6 @@ menu:
     url: '/categories.html'
   - title: 'About'
     url: '/about'
-  - title: 'Wiki'
-    url: 'https://zhiminbai.github.io/wiki/'
   - title: 'Github'
     url: 'https://github.com/zhiminbai'
   - title: 'RSS'
