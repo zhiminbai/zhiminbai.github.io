@@ -1,17 +1,17 @@
 ---
 layout: page
 title: About
-permalink: /about.html
+permalink: /en/about.html
 hideHomeActive: true
+lang: en-US
 ---
 
-## 关于我
+## About Me
 
-- 我是一名来自南京的工程师，主职产品，会一点 Python，也会点设计。
 
-## 关注我
+## Follow Me
 
 - [Github](https://github.com/{{site.github}})
 - [Twitter](https://twitter.com/{{site.twitter}})
-- [知乎](https://www.zhihu.com/people/{{site.zhihu}})
+- [Zhihu](https://www.zhihu.com/people/{{site.zhihu}})
 - [V2EX](https://www.v2ex.com/member/{{site.v2ex}})

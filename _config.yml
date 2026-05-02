@@ -1,59 +1,69 @@
-title:            Zhimin
-description:      "Hi，我是 Zhimin，是一个产品工程师，会一点产品知识 / Java / Python，喜欢折腾各种新技术。"
-
-github: zhiminbai
-zhihu: zhiminbainju
-twitter: zhiminbainju
-v2ex: zhiminbainju
-
+# Site Information
+title: TZhimin3
+description:  "Hi，我是 Zhimin，是一个产品工程师，会一点产品知识 / Java / Python，喜欢折腾各种新技术。"
 url: https://zhiminbai.github.io
+repo: zhiminbai/zhiminbai.github.io
+lang: zh-CN
+timezone: Africa/Shanghai
+
+# Social Media and External URLs
+github: zhiminbai
+zhihu: thiminbai
+twitter: zhiminbai
+v2ex: zhiminbai
 menu:
-  - title: 'Categories'
-    url: '/categories.html'
-  - title: 'About'
-    url: '/about'
-  - title: 'Github'
-    url: 'https://github.com/zhiminbai'
-  - title: 'RSS'
-    url: '/feed.xml'
+  - title: "Categories"
+    url: "/categories.html"
+  - title: "About"
+    url: "/about.html"
 
-timezone:    Asia/Shanghai
-locale:      zh_CN
-lang:      zh-cmn-Hans
-future:      true
-highlighter: rouge
-markdown:    kramdown
-sass:
-  sass_dir: _sass
-  style: compressed
-
-permalink:   /:year-:month-:day/:title.html
-assetUrl: //zhiminbai.github.io/images/
-defaultImage: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
-
-
-
+# SEO and Analytics
 google_analytics: G-P7ERMJF8G7
-baidu_verify:
-google_verify: OWziSIXNRKS5JznZImIOIQ
 
+# Build Settings
 paginate: 10
 post_ext: md
 page_ext: md
 post_layout: post
 page_layout: page
 titlecase: true
+future: true
+highlighter: rouge
+markdown: kramdown
+permalink: /:year-:month-:day/:title.html
+sass:
+  sass_dir: _sass
+  style: compressed
 
-showBuyCoffee: false
-payImage:
+collections:
+  posts:
+    output: true
+    permalink: /:year-:month-:day/:title.html
+  posts_en:
+    output: true
+    permalink: /en/:year-:month-:day/:title.html
+    sort_by: date
 
 include: [".htaccess"]
-exclude: ["Gemfile", "Gemfile.lock", "README.md", "LICENSE", "package.json","node_modules"]
-gems:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-feed
+exclude:
+  [
+    "Gemfile",
+    "Gemfile.lock",
+    "README.md",
+    "LICENSE",
+    "package.json",
+    "node_modules",
+  ]
 
+# Plugins
 plugins:
   - jekyll-paginate
   - jekyll-pdf-embed
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Custom Site Settings
+showBuyCoffee: false
+payImage: 
+assetUrl: 
+defaultImage: 

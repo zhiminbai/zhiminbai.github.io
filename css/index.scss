@@ -2,15 +2,6 @@
 sitemap: false
 ---
 
-/*
- *
- *  HPSTR
- *
- *  Designer: Michael Rose
- *  Twitter: http://twitter.com/mmistakes
- *
-*/
-
 // Partials
 @import "variables";
 @import "mixins";
@@ -18,9 +9,7 @@ sitemap: false
 @import "site";
 @import "typography";
 @import "rouge";
-@import "coderay";
 @import "grid";
 @import "elements";
-@import "animations";
 @import "page";
 @import "404";

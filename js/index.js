@@ -4,6 +4,14 @@
 window.requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
 
 document.addEventListener("DOMContentLoaded", function () {
+
+  var zoomImgs = document.querySelectorAll('.entry-content img');
+  (zoomImgs && zoomImgs.length > 0) && loadScript("https://gw.alipayobjects.com/os/k/s3/lightense.min.js", function () {
+    Lightense && Lightense(zoomImgs,{
+      background: 'rgba(255, 255, 255, .8)',
+    });
+  });
+
   if (!isPC()) {
     return;
   }
@@ -95,7 +103,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   var qrTextEl = document.getElementById('J_qr_text');
   var isShowQr = qrTextEl && qrTextEl.offsetParent;
-  isShowQr && loadScript('https://qpluspicture.oss-cn-beijing.aliyuncs.com/XIa3FV/qrcode.min.js', function () {
+  isShowQr && loadScript('https://gw.alipayobjects.com/os/k/qa/qrcode.min.js', function () {
     QRCode && new QRCode(document.getElementById("J_qr_code"), {
       width: 128,
       height: 128,
@@ -105,13 +113,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
-  var zoomImgs = document.querySelectorAll('.img-zoom');
-  (zoomImgs && zoomImgs.length > 0) && loadScript("https://qpluspicture.oss-cn-beijing.aliyuncs.com/Jl790T/intense.min.js", function () {
-    Intense && Intense(zoomImgs);
-  });
-
 }, false);
-
 
 function isPC() {
   var userAgentInfo = navigator.userAgent;
