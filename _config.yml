@@ -1,16 +1,15 @@
 # Site Information
-title: TZhimin3
-description:  "Hi，我是 Zhimin，是一个产品工程师，会一点产品知识 / Java / Python，喜欢折腾各种新技术。"
+title: zhimin's Blog
+description: "一个喜欢开源和折腾的工程师"
 url: https://zhiminbai.github.io
 repo: zhiminbai/zhiminbai.github.io
 lang: zh-CN
-timezone: Africa/Shanghai
+timezone: Africa/El_Aaiun
 
 # Social Media and External URLs
 github: zhiminbai
-zhihu: thiminbai
-twitter: zhiminbai
-v2ex: zhiminbai
+zhihu: tzhiminbai3
+
 menu:
   - title: "Categories"
     url: "/categories.html"
@@ -64,6 +63,6 @@ plugins:
 
 # Custom Site Settings
 showBuyCoffee: false
-payImage: 
-assetUrl: 
-defaultImage: 
+payImage: //gw.alipayobjects.com/zos/k/vb/1.png
+assetUrl: //tw93.fun/images/
+defaultImage: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
