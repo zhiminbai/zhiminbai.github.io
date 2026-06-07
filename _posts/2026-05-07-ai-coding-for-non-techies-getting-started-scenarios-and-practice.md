@@ -1,4 +1,10 @@
-# 你不知道的 AI Coding：非技术人的上手、场景与实战
+---
+layout: post
+title: 你不不知道的 AI Coding：非技术人的上手、场景与实战
+date: 2026-04-2 07:00:00 +0800
+summary: 给产品和业务同学分享如何上手 AI Coding（非技术人也能用），重点推荐 Claude Code。核心要点：会用对话框 AI 就能上手命令行；把项目背景写进 CLAUDE.md；需求描述要精确；任务完成要验收。长文涵盖：命令行入门、技术通识、账号订阅、CLAUDE.md 写法、需求精确化、复杂任务处理、Skill 沉淀等。
+categories: Collect
+---
 
 > 原文：https://tw93.fun/2026-04-26/ai-coding.html
 > 作者：Tw93

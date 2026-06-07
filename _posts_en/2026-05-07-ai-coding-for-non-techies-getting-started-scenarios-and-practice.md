@@ -1,7 +1,7 @@
 ---
 layout: post
 title: AI Coding You Didn't Know About: Getting Started, Use Cases, and Practice for Non-Techies
-date: 2026-05-07 07:00:00 +0800
+date: 2026-04-2 07:00:00 +0800
 summary: A comprehensive guide for product and business folks on how to get started with AI Coding — no technical background required. Covers Claude Code, CLAUDE.md best practices, precise prompting, and real-world use cases.
 categories: Share
 ---
