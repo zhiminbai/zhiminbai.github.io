@@ -51,6 +51,7 @@ curl -fsSL https://claude.ai/install.sh | bash
 - 用老 Gmail，别用新注册 Outlook
 
 **订阅档次：**
+
 | 档位 | 价格 | 包含 |
 |------|------|------|
 | Free | $0 | 基础对话，不含 Claude Code |
@@ -183,6 +184,3 @@ alias c='CLAUDE_CODE_AUTO_COMPACT_WINDOW=400000 claude --dangerously-skip-permis
 - [Claude Skills are awesome - Simon Willison](https://simonwillison.net/2025/Mar/22/claude-skills/)
 - [Malleable software in the age of LLMs - Geoffrey Litt](https://geoffreylitt.com/2025/03/malleable-software-llms)
 
----
-
-*标签：#AI Coding #Claude Code #AI工具 #非技术人 #Tw93 #效率工具*
