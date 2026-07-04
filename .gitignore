@@ -9,3 +9,4 @@ _config.gh-pages.yml
 .jekyll-cache
 .vscode
 vendor
+.gstack/
